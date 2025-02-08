@@ -1,9 +1,9 @@
 {
+  "homepage": "https://uharshitha2004.github.io/ITWebsite",
   "name": "itwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.4",
     "@tailwindcss/vite": "^4.0.4",
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
@@ -11,14 +11,19 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.5",
-    "react-scripts": "5.0.1",
-    "tailwindcss": "^4.0.4"
+    "react-scripts": "5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uharshitha2004/ITWebsite.git"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +44,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.4"
   }
 }

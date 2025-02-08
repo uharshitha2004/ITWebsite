@@ -1,11 +1,8 @@
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Ensure this is correct
   theme: {
-    extend: {
-      backgroundImage: {
-        'hero-bg': "url('/assets/bg1.jpg')",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

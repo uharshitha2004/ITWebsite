@@ -6,7 +6,7 @@ const Navbar = () => {
       
       <Link to="/">
       <img
-        src="/assets/logo.webp" 
+        src="/assets/logo.jpeg" 
         alt="Company Logo"
         className="h-20 w-48 object-contain" 
        />

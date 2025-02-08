@@ -2,7 +2,7 @@ const Portfolio = () => {
     const projects = [
       {
         title: "E-Commerce Website",
-        image: "/assets/Ecommerce.webp",
+        image: "/assets/Ecommerce.jpeg",
         description: "A fully functional online shopping platform with secure payments and product management.",
       },
       {
@@ -12,7 +12,7 @@ const Portfolio = () => {
       },
       {
         title: "Shopping Website",
-        image: "/assets/Shopping.jpg",
+        image: "/assets/Shopping.jpeg",
         description: "A  Shopping involves with the category of Home Appliances,Jwellery,Mobile Phones,Accesories, Beauty ,Health Care",
       },
     ];
