@@ -1,7 +1,7 @@
 const About = () => {
     return (
       <div
-        className="h-screen w-full flex items-center justify-center text-black"
+        className="bg-blue-300 h-screen w-full flex items-center justify-center text-black"
         style={{
           backgroundImage: "url('/assets/bg3.jpg')", 
           backgroundSize: "cover",

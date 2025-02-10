@@ -18,7 +18,8 @@ const Portfolio = () => {
     ];
   
     return (
-      <div className="min-h-screen bg-gray-300 py-12 px-6">
+      <div className="min-h-screen bg-gray-300 py-12 px-6" 
+      >
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Portfolio</h2>
           <p className="text-gray-600 text-lg mb-12">
