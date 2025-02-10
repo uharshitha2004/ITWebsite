@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ITWebsite/static/css/main.dc816458.css",
+    "main.js": "/ITWebsite/static/js/main.cc2acd51.js",
+    "static/js/358.08791065.chunk.js": "/ITWebsite/static/js/358.08791065.chunk.js",
+    "static/media/cyber.jpg": "/ITWebsite/static/media/cyber.74559d021474427a46d5.jpg",
+    "static/media/web-development.jpg": "/ITWebsite/static/media/web-development.ca55a691bb9f2b540508.jpg",
+    "static/media/logo.png": "/ITWebsite/static/media/logo.63b6abb852e2bda42042.png",
+    "static/media/b3.jpg": "/ITWebsite/static/media/b3.07bfc2bd42cd9c441661.jpg",
+    "static/media/cloud.jpg": "/ITWebsite/static/media/cloud.dcdb100ae4dea8f401ca.jpg",
+    "static/media/Shopping.jpeg": "/ITWebsite/static/media/Shopping.2f65bae5d82b2b5f7c68.jpeg",
+    "static/media/Ecommerce.jpeg": "/ITWebsite/static/media/Ecommerce.9e4a02afc105829fc749.jpeg",
+    "static/media/Business.jpeg": "/ITWebsite/static/media/Business.abc47490b1b8edcc9d9d.jpeg",
+    "index.html": "/ITWebsite/index.html",
+    "main.dc816458.css.map": "/ITWebsite/static/css/main.dc816458.css.map",
+    "main.cc2acd51.js.map": "/ITWebsite/static/js/main.cc2acd51.js.map",
+    "358.08791065.chunk.js.map": "/ITWebsite/static/js/358.08791065.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc816458.css",
+    "static/js/main.cc2acd51.js"
+  ]
+}
