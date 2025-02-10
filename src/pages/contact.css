@@ -1,0 +1,52 @@
+/* Contact Page Styling */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("/public/assets/b3.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+/* Content Box */
+.contact-content {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.contact-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Paragraphs */
+.contact-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Chatbot Section */
+.chatbot-section {
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-content {
+        max-width: 90%;
+        padding: 15px;
+    }
+    .contact-content h1 {
+        font-size: 1.8rem;
+    }
+    .contact-content p {
+        font-size: 1rem;
+    }
+}

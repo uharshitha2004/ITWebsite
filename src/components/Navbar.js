@@ -1,35 +1,30 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "./logo.png"; // Make sure the path is correct
+import "./navbar.css";
 
 const Navbar = () => {
-  return (
-    <nav className="flex items-center justify-between px-8 py-4 bg-gray-500 shadow-md">
-      
-      <Link to="/">
-      <img
-        src="/assets/logo.jpeg" 
-        alt="Company Logo"
-        className="h-20 w-48 object-contain" 
-       />
+  const [isOpen, setIsOpen] = useState(false);
 
+  return (
+    <nav className="navbar">
+      {/* Logo */}
+      <Link to="/" className="logo">
+        <img src={logo} alt="Company Logo" />
       </Link>
 
-      
-      <ul className="flex space-x-6 text-white">
-        <li>
-          <Link to="/" className="hover:text-gray-400">Home</Link>
-        </li>
-        <li>
-          <Link to="/about" className="hover:text-gray-400">About</Link>
-        </li>
-        <li>
-          <Link to="/services" className="hover:text-gray-400">Services</Link>
-        </li>
-        <li>
-          <Link to="/portfolio" className="hover:text-gray-400">Portfolio</Link>
-        </li>
-        <li>
-          <Link to="/contact" className="hover:text-gray-400">Contact</Link>
-        </li>
+      {/* Mobile Menu Button */}
+      <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
+        ☰
+      </button>
+
+      {/* Navigation Links */}
+      <ul className={`nav-links ${isOpen ? "open" : ""}`}>
+        <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+        <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
+        <li><Link to="/services" onClick={() => setIsOpen(false)}>Services</Link></li>
+        <li><Link to="/portfolio" onClick={() => setIsOpen(false)}>Portfolio</Link></li>
+        <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
       </ul>
     </nav>
   );

@@ -1,10 +1,12 @@
+import React from "react";
+import "./footer.css"; // Ensure this file exists in `src`
+
 function Footer() {
-    return (
-      <footer className="bg-gray-800 text-white p-4 text-center">
-        <p>© 2025 IT Company. All Rights Reserved.</p>
-      </footer>
-    );
-  }
-  
-  export default Footer;
-  
+  return (
+    <footer className="footer">
+      <p>© {new Date().getFullYear()} IT Company. All Rights Reserved.</p>
+    </footer>
+  );
+}
+
+export default Footer;

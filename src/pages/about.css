@@ -1,0 +1,51 @@
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-image: url("/public/assets/b3.jpg"); /* Update with correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Content Box */
+.about-content {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+  text-align: left;
+}
+
+/* Title */
+.about-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/* Paragraphs */
+.about-content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    max-width: 90%;
+    padding: 20px;
+  }
+  .about-content h1 {
+    font-size: 2rem;
+  }
+  .about-content p {
+    font-size: 1rem;
+  }
+}
